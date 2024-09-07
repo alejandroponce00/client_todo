@@ -16,7 +16,7 @@ interface Todo {
   completed: boolean;
 }
 
-const API_BASE_URL = 'http://localhost:8000/api'
+const API_BASE_URL =`${process.env.NEXT_PUBLIC_BACKEND_URL}`
 
 export default function Component() {
   const [todos, setTodos] = useState<Todo[]>([])
