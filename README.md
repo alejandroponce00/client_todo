@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aplicación CRUD de Tareas
 
-## Getting Started
+Esta es una aplicación web que permite crear, actualizar y eliminar tareas. Utiliza Next.js en el frontend y Django en el backend para gestionar las operaciones CRUD básicas sobre las tareas.
 
-First, run the development server:
+## Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Crear Tareas:** Permite añadir nuevas tareas especificando un título y una descripción.
+- **Actualizar Tareas:** Permite modificar el título y la descripción de las tareas existentes.
+- **Eliminar Tareas:** Permite eliminar tareas que ya no son necesarias.
+- **Interfaz Amigable:** Utiliza una interfaz intuitiva y responsive gracias a Next.js.
+- **Seguridad y Rendimiento:** Implementa prácticas de seguridad y optimización de rendimiento tanto en el frontend como en el backend.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js
+- **Backend:** Django
+- **Base de Datos:** (PostgreSQL)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Configuración
 
-## Learn More
+### Requisitos Previos
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js y npm instalados para el frontend.
+- Python y pip instalados para el backend.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Instalación
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clonar el Repositorio:**
+   ```bash
+   git clone https://github.com/alejandroponce00/client_todo.git
+  
